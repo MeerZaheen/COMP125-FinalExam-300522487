@@ -38,6 +38,30 @@ var core;
         main();
     }
     function gameLoop() {
+        if (blank == 1) {
+            die1 = new createjs.Bitmap("Assets/images/1.png");
+            stage.addChild(number1);
+        }
+        if (blank == 2) {
+            die2 = new createjs.Bitmap("Assets/images/2.png");
+            stage.addChild(number2);
+        }
+        if (blank == 3) {
+            die3 = new createjs.Bitmap("Assets/images/3.png");
+            stage.addChild(number3);
+        }
+        if (blank == 4) {
+            die4 = new createjs.Bitmap("Assets/images/4.png");
+            stage.addChild(number4);
+        }
+        if (blank == 5) {
+            die5 = new createjs.Bitmap("Assets/images/5.png");
+            stage.addChild(number5);
+        }
+        if (blank == 6) {
+            die6 = new createjs.Bitmap("Assets/images/6.png");
+            stage.addChild(number6);
+        }
         stage.update();
     }
     function rollButton_clicked() {
