@@ -42,9 +42,9 @@ var core;
     }
     function rollButton_clicked() {
         rollButton1 = Math.floor((Math.random() * 6) + 1);
-        console.log(rollButton);
+        console.log(rollButton1);
         rollButton2 = Math.floor((Math.random() * 6) + 1);
-        console.log(rollButton);
+        console.log(rollButton2);
     }
     function main() {
 
