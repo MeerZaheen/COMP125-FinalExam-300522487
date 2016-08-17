@@ -52,9 +52,9 @@ var core;
         rollButton.y = 350;
         stage.addChild(rollButton);
         blank2 = new createjs.Bitmap("Assets/images/blank.png");
-                blank2.x = 100;
+        blank2.x = 100;
         blank2.y = 100;
-                
+
         stage.addChild(blank2);
         blank = new createjs.Bitmap("Assets/images/blank.png");
         blank.x = 400;
