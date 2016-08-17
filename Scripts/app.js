@@ -20,7 +20,6 @@ var core;
     var randomNumber2 = 0;
     var canvas;
     var stage;
-    var rollButton;
     var blank;
     var blank2;
     var die1;
