@@ -40,27 +40,27 @@ var core;
     function gameLoop() {
         if (blank == 1) {
             die1 = new createjs.Bitmap("Assets/images/1.png");
-            stage.addChild(number1);
+            stage.addChild(die1);
         }
         if (blank == 2) {
             die2 = new createjs.Bitmap("Assets/images/2.png");
-            stage.addChild(number2);
+            stage.addChild(die2);
         }
         if (blank == 3) {
             die3 = new createjs.Bitmap("Assets/images/3.png");
-            stage.addChild(number3);
+            stage.addChild(die3);
         }
         if (blank == 4) {
             die4 = new createjs.Bitmap("Assets/images/4.png");
-            stage.addChild(number4);
+            stage.addChild(die4);
         }
         if (blank == 5) {
             die5 = new createjs.Bitmap("Assets/images/5.png");
-            stage.addChild(number5);
+            stage.addChild(di5);
         }
         if (blank == 6) {
             die6 = new createjs.Bitmap("Assets/images/6.png");
-            stage.addChild(number6);
+            stage.addChild(die6);
         }
         stage.update();
     }
